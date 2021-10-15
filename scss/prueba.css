@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.fondocolor {
+  background: -webkit-gradient(linear, left top, left bottom, from(green), to(yellow));
+  background: linear-gradient(green, yellow);
+}
+
+.pie {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  color: white;
+}
+
+.contacto {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.iconossociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon-mail2:before {
+  content: "\ea84";
+}
+
+.icon-phone:before {
+  content: "\e942";
+}
+
+@media all and (max-width: 700px) {
+  .pie {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: transparent;
+    color: black;
+  }
+}
+
+/* ....NAVEGADOR.... */
+.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.navbar {
+  letter-spacing: 2px;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+  margin-right: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 55px;
+  color: #ddd;
+}
+
+.florlogo {
+  border-radius: 0% 0% 25% 25%;
+  margin-right: 20px;
+}
+
+.nombrelogo {
+  color: green;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* LISTO... NAVEGADOR...*/
+/* ... CARDS TARJETAS BOOTSTRAP...*/
+.card {
+  /*background: linear-gradient(to right, rgb(92, 172, 55) , rgb(228, 177, 84));*/
+  border-width: 1px;
+  color: #ddd;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 20px;
+}
+
+.contenedorcartas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 25px;
+}
+
+.card-img-top {
+  height: 70%;
+}
+
+/* ... LISTO TARJETAS BOOTSTRAP..*/
+/* PRUEBA NAV-ITEM NAVEGADOR BOOTSTRAP*/
+li:hover {
+  -webkit-box-shadow: 15em 0 rgba(255, 255, 255, 0.2) inset;
+          box-shadow: 15em 0 rgba(255, 255, 255, 0.2) inset;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+li a {
+  color: red;
+}
+
+@media all and (max-width: 600px) {
+  .contenedorcartas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=prueba.css.map */

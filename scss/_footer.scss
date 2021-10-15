@@ -1,0 +1,41 @@
+.pie{
+  
+  margin-left:100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  padding-top: 5px ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  color: white;
+   }
+.contacto{
+  margin-top: 10px;
+    text-align: center;
+
+}
+.iconossociales{
+  display: flex;
+  justify-content: space-between;
+}
+.mail{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-mail2:before {
+  content: "\ea84";
+}
+    .icon-phone:before {
+        content: "\e942";
+      }
+
+@media all and (max-width:700px){
+    .pie{
+      flex-direction: column ;
+      background: transparent;
+      color: rgb(0, 0, 0);
+    }
+    
+}      
